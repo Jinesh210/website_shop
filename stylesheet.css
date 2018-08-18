@@ -1,0 +1,52 @@
+body {
+  font-family: "Allan";
+}
+.center
+{
+	 font-size:40px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottom
+{
+	font-size:25px;
+	position:absolute;
+	top:80%;
+	left: 40%;
+}
+#bg
+{
+	position: relative; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  max-height: 70%;
+  filter: blur(2px);
+}
+.Abouts
+{
+	font-size:80px;
+	color:#fff;
+	left: 50%;
+	top:70%;
+}
+.header
+{
+ background-color: #1d2120;
+  color:#fff;
+  height: 90px;
+  
+}
+.header-logo {
+	float:left;
+  font-size:36px;
+  padding-top: 15px;
+  padding-left:15px;
+} 
+.main-body {
+	color:#fff;
+	height:700px;
+	
+}
